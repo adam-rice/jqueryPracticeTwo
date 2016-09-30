@@ -1,17 +1,28 @@
 body {
     font-family: "helvetica neue";
-    color: #666;
+    color: #E18942;
     padding: 0 20%;
 }
 header {
+  font-size: 1.2rem;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 img {
-  width: 200px;
+  width: 150px;
+  margin-left: 350px;
 }
 .hide {
   display: none;
 }
 ul li {
   margin: 10px 10px;
+  font-size: 1.2rem;
+}
+a {
+  color: #E18942;
+  text-decoration: none;
+}
+a:hover {
+  color: #3D3242;
 }
